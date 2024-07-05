@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #580A46;
+    padding: 20px 0;
+    color: #333333;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+h2 {
+    border-bottom: 2px solid #580A46;
+    padding-bottom: 10px;
+    color: #333333;
+}
+
+.project, .skill, .certification, .education, .additional-info {
+    margin-bottom: 20px;
+}
+
+.project h3, .skill h3, .certification h3, .education h3, .additional-info h3,strong {
+    margin-top: 0;
+    color: #580A46;
+}
+
+footer {
+    background-color: #580A46;
+    color: #333333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
